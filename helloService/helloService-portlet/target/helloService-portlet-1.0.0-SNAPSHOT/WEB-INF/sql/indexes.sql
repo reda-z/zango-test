@@ -1,0 +1,1 @@
+create index IX_D754E26A on helloService_Contact (uuid_);

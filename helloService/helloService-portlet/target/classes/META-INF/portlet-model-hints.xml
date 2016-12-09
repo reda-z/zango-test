@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="zango.example.model.Books">
+		<field name="uuid" type="String" />
+		<field name="bookId" type="long" />
+		<field name="bookName" type="String" />
+		<field name="bookAuthor" type="String" />
+		<field name="bookResume" type="String" />
+	</model>
+	<model name="zango.example.model.Contact">
+		<field name="uuid" type="String" />
+		<field name="contactId" type="long" />
+		<field name="lastName" type="String" />
+		<field name="firstName" type="String" />
+	</model>
+</model-hints>

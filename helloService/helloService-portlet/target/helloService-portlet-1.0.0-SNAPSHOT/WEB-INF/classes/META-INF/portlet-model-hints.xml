@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="zango.example.model.Contact">
+		<field name="uuid" type="String" />
+		<field name="contactId" type="long" />
+		<field name="lastName" type="String" />
+		<field name="firstName" type="String" />
+	</model>
+</model-hints>

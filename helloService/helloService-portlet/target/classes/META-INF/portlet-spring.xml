@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="zango.example.service.BooksLocalService" class="zango.example.service.impl.BooksLocalServiceImpl" />
+	<bean id="zango.example.service.BooksService" class="zango.example.service.impl.BooksServiceImpl" />
+	<bean id="zango.example.service.persistence.BooksPersistence" class="zango.example.service.persistence.BooksPersistenceImpl" parent="basePersistence" />
+	<bean id="zango.example.service.ContactLocalService" class="zango.example.service.impl.ContactLocalServiceImpl" />
+	<bean id="zango.example.service.ContactService" class="zango.example.service.impl.ContactServiceImpl" />
+	<bean id="zango.example.service.persistence.ContactPersistence" class="zango.example.service.persistence.ContactPersistenceImpl" parent="basePersistence" />
+</beans>
